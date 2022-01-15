@@ -1,0 +1,15 @@
+spring:
+  server:
+    port: 8080
+
+hydrant:
+  api:
+    host: data.cityofnewyork.us
+    resource: resource/5bgh-vtsn.json
+    scheme: https
+    defaultCircleRadius: 500
+    enhanceCircleRadius: 250
+    retryMaxAttempt: 3
+    retryMaxDelay: 100
+
+
